@@ -1,9 +1,9 @@
-ASDsdfasdfsad
-sgasdfasdf
-thisis new commit
-3rdline
-4htline
-" Vim filetype plugin
+class  
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+		" Vim filetype plugin
 " Language:	git config file
 " Maintainer:	Tim Pope <vimNOSPAM@tpope.org>
 " Last Change:	2009 Dec 24
@@ -19,3 +19,5 @@ setlocal comments=:#,:; commentstring=;\ %s
 
 let b:undo_ftplugin = "setl fo< com< cms<"
 
+	}
+}
