@@ -1,0 +1,7 @@
+#!/bin/sh
+#Finding the size of a files
+echo "Enter the file Name"
+read fn
+isize=`wc -l < $fn`
+echo "File Size is : $isize"
+echo "END"

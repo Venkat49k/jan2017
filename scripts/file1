@@ -1,0 +1,27 @@
+clear
+echo "************start*************"
+
+echo "list of all files are"
+ls -l
+
+echo "........................."
+
+echo "logged in users are...."
+
+who am i
+
+echo "........................"
+
+echo "date of the day is"
+
+date
+
+echo"........................."
+
+
+echo "present workign directory is ..."
+pwd
+echo "end of your first script"
+echo "***********END******************"
+
+

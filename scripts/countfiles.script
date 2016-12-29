@@ -1,0 +1,6 @@
+#Countting the number of files in a directory
+echo "submit the dorectory"
+read dirname
+cd $dirname
+ ls -al  |wc -c
+echo "+++++++++++++++++++++++++++++++++++++"

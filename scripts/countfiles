@@ -1,0 +1,11 @@
+echo "************** No of files Count************"
+echo "no of files with .txt are"
+#No of files are ...
+ls *.txt /C/Git/Platform2/release-1.0 | wc -w
+
+echo "----------------------------------"
+echo "NUmber of files are "
+
+ 
+echo "*******END*******************"
+

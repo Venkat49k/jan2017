@@ -1,0 +1,12 @@
+#!/bin/sh
+#counting all files from a directory.
+clear
+echo "counting the noof files from a dir"
+#ls -l
+echo "Enter the custom Dir"
+read idir
+
+nfiles=`ls $idir | wc -w`
+echo "no of files are : $nfiles"
+echo "END"
+

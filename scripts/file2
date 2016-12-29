@@ -1,0 +1,18 @@
+clear
+echo "*************Start of the Script**************"
+ls -ltr
+echo "____________________________________"
+echo "Today's date is ....."
+date
+echo "_____________________________________"
+echo "I am presently in the directory ..."
+pwd
+echo "                                    "
+echo "creating a new directory"
+echo "____________________________________"
+mkdir scriptsdir
+echo "___________________________________ "
+echo "copying a new file script3copy "
+cp script1 script3copy
+echo "___________________________________"
+echo "**************End of script1******************"

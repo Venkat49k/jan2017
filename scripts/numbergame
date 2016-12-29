@@ -1,0 +1,19 @@
+#!/bin/sh
+echo "Enter the numbers and basic Cals"
+echo "Enter numbers"
+ read n1 n2
+sum=`expr $n1 + $n2`
+echo "the sum of two numbers is : $sum"
+sub=`expr $n2 - $n1`
+echo "The subtraction is : $sub"
+multi=`expr $n1 \* $n2`
+echo "Size of the File is : $multi"
+divide=`expr $n1 / $n2`
+echo "The divide is : $divide"
+echo "END"
+echo "++++++++++++++++++++++++++++++++++++++++++++++++++++"
+echo "finding the size of a File"
+read fn
+lncount=`wc -l <$fn`
+echo "Line count is : $lncount"
+echo "END"
