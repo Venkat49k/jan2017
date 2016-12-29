@@ -1,0 +1,12 @@
+DB testing Done:
+ 1) Create the DB Users for each schema users by giving the necessary permissions.
+ 2) Load the data into the data base schema users.
+ 3) Validate the tables and columns in the schema against the UI components like FE, User Roles, Login, Security, FE. (CRUDE Permissions for the features)
+ 4) DBCRs validation in the release.
+ 5) Procedures and Trggers validation.
+ 6) Apply DB patches for the customer issues - Mostly during the migration
+ 7) Revert the DB patches and validate the backup tables.
+ 8) Data Base Loading and migrating form previous versions to the latest versions.
+ 9) Meta data Relations used in the Meta Data tables for the search test cases.
+10) 
+
