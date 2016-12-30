@@ -14,9 +14,10 @@ if (exists("b:did_ftplugin"))
 endif
 let b:did_ftplugin = 1
 
+VKA----setlocal formatoptions-=t formatoptions+=croql
+setlocal comments=:#,:; commentstring=;\ %s
 setlocal formatoptions-=t formatoptions+=croql
 setlocal comments=:#,:; commentstring=;\ %s
-
 let b:undo_ftplugin = "setl fo< com< cms<"
 
 	}
